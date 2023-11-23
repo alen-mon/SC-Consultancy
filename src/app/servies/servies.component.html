@@ -1,0 +1,143 @@
+<br>
+<br>
+<div class="Title" id="section7">
+  <h1>SERVICES</h1>
+</div>
+<div>
+  <hr style="height:2px;width:50%;border-width:0;color:gray;background-color:gray">
+</div>
+
+<br><br><br><br>
+<div class="side">
+</div>
+<div id="section7">
+  <div class="card card1">
+    <img src="assets\ESIC.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+    <div class="card-body">
+      <h5 class="card-title">ESIC-Employees State Insurance Corporation</h5>
+      <p class="card-text">ESIC Provides the monthly cash allowance for duration of maximum 24 months in case of
+        involuntary loss of employment or invalidity due to the non-employment injury</p>
+      <a class="readmorebutton" href="#section1">Read more</a>
+    </div>
+  </div>
+
+  <div class="card card2">
+    <img src="assets\pf.png" class="card-img-top" alt="Fissure in Sandstone" />
+    <div class="card-body">
+      <h5 class="card-title">EPF-Employees' Provident Fund</h5>
+      <p class="card-text">EPF (Employees' Provident Fund) is a retirement benefits scheme provided by the Employees'
+        Provident Fund Organization (EPFO).</p>
+      <a class="readmorebutton" href="#section2">Read more</a>
+    </div>
+  </div>
+
+  <div class="card card3">
+    <img src="assets\LL.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+    <div class="card-body">
+      <h5 class="card-title">Labour law</h5>
+      <p class="card-text">Labor law is legislation specifying responsibilities and rights in employment, particularly
+        the responsibilities of the employer and the rights of the employee.</p>
+      <a class="readmorebutton" href="#section3">Read more</a>
+    </div>
+  </div>
+
+  <div class="card card4">
+    <img src="assets\DSC.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+    <div class="card-body">
+      <h5 class="card-title">Digital Signature Certificate</h5>
+      <p class="card-text"> Digital Signature Certificates (DSC) are the digital equivalent (that is electronic format)
+        of physical or paper certificates.</p>
+      <a class="readmorebutton" href="#section4">Read more</a>
+    </div>
+  </div>
+
+  <div class="card card5">
+    <img src="assets\FL.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+    <div class="card-body">
+      <h5 class="card-title">Factory License</h5>
+      <p class="card-text">Factory License acts as an approval document to be provided by authorities to carry out
+        manufacturing activities.</p>
+      <a class="readmorebutton" href="#section5">Read more</a>
+    </div>
+  </div>
+</div>
+
+<div class="workcard">
+  <h1 style="text-align: center;">How we <span class="text_end">Work?</span> </h1>
+  <p class="worktext">Experienced and reliable customer service officer with extensive experience providing assistance
+    by phone call.Strong dedication to helping customers resolve issues and cultivating a positive image of the company.
+    Excel in both team environments and alone</p>
+</div><br><br><br>
+<div class="bdy">
+  <div class="slider">
+    <div class="images">
+      <input type="radio" name="slide" id="img1" checked>
+      <input type="radio" name="slide" id="img2">
+      <input type="radio" name="slide" id="img3">
+      <input type="radio" name="slide" id="img4">
+      <input type="radio" name="slide" id="img5">
+
+      <img src="assets/can11.png" class="m1" alt="img1" id="section1">
+      <img src="assets/can12.png" class="m2" alt="img2" id="section2">
+      <img src="assets/can13.png" class="m3" alt="img3" id="section3">
+      <img src="assets/can14.png" class="m4" alt="img4" id="section4">
+      <img src="assets/can15.png" class="m5" alt="img5" id="section5">
+    </div>
+    <div class="dots">
+      <label for="img1"></label>
+      <label for="img2"></label>
+      <label for="img3"></label>
+      <label for="img4"></label>
+      <label for="img5"></label>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="About">
+  <h1 id="section6" style="text-align: center;color: orange;">ABOUT US</h1>
+  <h3>We counsel our clients on their key strategic issues, leveraging our deep industry expertise and using analytical
+    rigor
+    to help them make informed decisions more quickly and solve their toughest and most critical business problems.
+    We advise and support global companies that are leaders in their industries.
+  </h3>
+  <h3>
+    Our mission is to attract and retain quality, high-paying customers,Manage your time so you’ll get more done in less
+    time and Cut expenses without sacrificing quality
+  </h3>
+</div>
+
+
+<div class="query">
+  <h1 style="text-align: center;color: orange;margin-left: -6%;">Any Query?</h1>
+  <form [formGroup]="form" (submit)="sendmail()">
+
+    <input placeholder="NAME" class="input" formControlName="from_name"><br>
+    <div *ngIf="form.get('from_name')!.hasError('required') && form.get('from_name')!.touched" style="color: red;">Name Missing</div><br>
+
+    <input placeholder="YOUR EMAIL" class="input" formControlName="from_email"><br>
+    <div *ngIf="form.get('from_email')!.hasError('required') && form.get('from_email')!.touched" style="color: red;">Email Missing</div><br>
+
+    <input placeholder="QUESTIONS" class="input" formControlName="message"><br>
+    <div *ngIf="form.get('message')!.hasError('required') && form.get('message')!.touched" style="color: red;">Question Missing</div><br>
+
+    <input placeholder="MOBILE NO" class="input" formControlName="mobile" required minlength="10" maxlength="10"><br>
+    <div *ngIf="form.get('mobile')!.hasError('required') && form.get('mobile')!.touched"   style="color: red;">Mobile No Missing</div><br>
+
+    <button class="query-button" type="submit" [disabled]="!form.valid">SUBMIT</button>
+  </form>
+</div>
+<br>
+<br>
+
+
+
+<div class="footer">
+  <p class="footer1">CONTACTS:</p>
+  <p class="footer2">SANTOSH M</p>
+  <p class="footer3">Coimbatore,Tamilnadu,India.</p>
+  <p class="footer4">+91 87608 99664</p>
+  <p class="footer5">santoshmahalingam333@gmail.com</p>
+</div>

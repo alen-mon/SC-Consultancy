@@ -1,0 +1,262 @@
+
+.side{
+  margin-top: 10%;
+  width: 180px;
+  height: 800px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .card img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card1 {
+    margin-left: 25%;
+    margin-top: -66%;
+  }
+  
+  .card2 {
+    margin-left: 50%;
+    margin-top: -26.5%;
+  }
+
+  .card3 {
+    margin-left: 75%;
+    margin-top: -26.5%;
+  }
+
+  .card4 {
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .card5 {
+    margin-left: 50%;
+    margin-top: -26.5%;
+  }
+
+  .card6 {
+    margin-left: 1%;
+    margin-top: 5%;
+    height: 200px;
+    width: 1050px;
+    background-color: rgba(93, 91, 91, 0.434);
+    text-align: center;
+  }
+  .workcard{
+    margin-left: 7%;
+    margin-top: 13%;
+    text-align: justify;
+  }
+  .card-img-work{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+ 
+  .worktext{
+    color: rgb(56, 58, 138);
+    margin-left: 10%;
+    margin-right:18%;
+    text-decoration: solid;
+    text-align: justify;
+  }
+  .Card1con{
+    color: rgb(56, 58, 138);
+  }
+
+  .Title{
+    margin-left: 45%;
+  }
+
+  .readmorebutton{
+    margin-left: 57%;
+    border: none;
+    padding: 5px 10px;
+    font-size: 10px;
+    position: relative;
+    color: #000000;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    scroll-behavior:smooth;
+  }
+
+  .contact{
+    line-height: 23px;
+    color: #777;
+  }
+  .query{
+    margin-left: 55%;
+    margin-top: -27%;
+    line-height: 23px;
+    color: #777;
+  }
+  .query-button{
+    margin-left: 70%;
+    padding: 10px 20px;
+    font-size: 10px;
+    position: relative;
+    color: #000000;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .input{
+    margin-left: 15%;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .input:hover{
+    border: 3px solid #555;
+  }
+  .About{
+    width: 400px;
+    margin-top: 8%;
+    margin-left: 8%;
+    line-height: 23px;
+    color: #777;
+    text-align: justify;
+  }
+
+.bdy {
+    height: 130vh;
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 710px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.dots label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #ef810b 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #ef810b;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+  margin-left: -400%;
+}
+
+.container {
+  color: rgb(255, 0, 0);
+}
+.container-text {
+  position: absolute;
+  text-align: justify;
+  margin-right: 6%;
+  margin-top: -2%;
+  top: 30px;
+  left: 20px;
+  color: #ccc;
+  /* right: 10px; */
+}
+
+.card-2{
+  color: #ef810b;
+  width: 940px;
+  height:480px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3a3127ce;
+  color: white;
+  text-align:justify
+}
+
+.footer1{
+  margin-left: 3%;
+}
+
+.footer2{
+  margin-left: 20%;
+  margin-top: -2.7%;
+}
+
+.footer3{
+  margin-left: 35%;
+  margin-top: -2.7%;
+}
+
+.footer4{
+  margin-left: 57%;
+  margin-top: -2.7%;
+}
+
+.footer5{
+  margin-left: 75%;
+  margin-top: -2.7%;
+}
